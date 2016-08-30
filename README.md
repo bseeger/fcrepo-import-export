@@ -15,7 +15,7 @@ Additional requirements for building and running from source:
 To run the standalone utility:
 
 ```sh
-$ java -jar fcrepo-import-export-<version>.jar --mode [import|export]
+$ java -jar fcrepo-import-export-<version>.jar --mode [import|export] --resource <URI> --binDir <dir> --descDir <dir>
 ```
 
 To run the utility with Maven:
